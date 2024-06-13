@@ -41,7 +41,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 50px 0 10px;
+    margin: 50px 150px 10px;
     
 }
 
@@ -49,10 +49,6 @@ main {
     width: 200px;
     height: 100px;
     position: relative;
-}
-
-.ronaldo-img {
-    
 }
 
 .microfone-mute {
@@ -74,14 +70,19 @@ main {
 */
 
 .container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
 footer {
-    height: 100px;
     background-color: #222222;
+    height: 10px;
 }
 
 
 .box-1-3 > * {
-    color: white;
+    align-content : center;
 }
